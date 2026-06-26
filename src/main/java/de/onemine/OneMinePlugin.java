@@ -1,6 +1,8 @@
 package de.onemine;
 
 import de.onemine.command.MenuCommand;
+import de.onemine.command.CommandsCommand;
+import de.onemine.command.BerrysCommand;
 import de.onemine.config.PluginConfig;
 import de.onemine.listener.CombatListener;
 import de.onemine.listener.IslandProtectionListener;
@@ -58,6 +60,8 @@ public class OneMinePlugin extends JavaPlugin {
         // Commands registrieren
         getCommand("menu").setExecutor(new MenuCommand(this));
         getCommand("menü").setExecutor(new MenuCommand(this));
+        getCommand("commands").setExecutor(new CommandsCommand(this));
+        getCommand("berrys").setExecutor(new BerrysCommand(this));
         
         // Listener registrieren
         getServer().getPluginManager().registerEvents(new MenuListener(this), this);
