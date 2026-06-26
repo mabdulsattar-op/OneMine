@@ -1,0 +1,23 @@
+name: OneMine
+version: 1.0.0-SNAPSHOT
+main: de.onemine.OneMinePlugin
+description: Piraten-Survival Plugin im One-Piece-Stil
+authors:
+  - mabdulsattar-op
+website: https://github.com/mabdulsattar-op/OneMine
+
+commands:
+  menu:
+    description: Öffnet das OneMine Menü
+    usage: /menu
+    aliases:
+      - menü
+      - menue
+
+permissions:
+  onemine.use:
+    description: Erlaubt das Öffnen des Menüs
+    default: true
+  onemine.admin:
+    description: Admin-Rechte (Bau-Schutz bypass)
+    default: op

@@ -1,0 +1,32 @@
+# OneMine Plugin Konfiguration
+
+language: de
+command: menu
+
+economy:
+  start-berrys: 100
+  clan-create-cost: 5000
+  pvp-kill-reward: 100
+  marine-kill-min: 50
+  marine-kill-max: 200
+
+bounty:
+  pvp-increase: 100
+  marine-increase: 25
+  top-list-size: 10
+
+islands:
+  protection-enabled: true
+  conquest-duration-seconds: 120
+  conquest-min-attackers: 2
+
+marines:
+  spawn-interval-ticks: 600
+  max-per-island: 5
+  max-global: 50
+  officer-chance: 0.05
+
+ships:
+  small-boat-cost: 500
+  medium-ship-cost: 2000
+  clan-galleon-cost: 10000

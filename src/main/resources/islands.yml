@@ -1,0 +1,37 @@
+# OneMine Inseln - Koordinaten & Biome
+# Nutze WorldEdit: //pos1 und //pos2 um Grenzen zu setzen
+# Format: id, displayName, biome, world, minX, minZ, maxX, maxZ, centerX, centerZ
+
+islands:
+  - id: island_01
+    displayName: "Whiskey Insel"
+    biome: TROPICAL
+    world: world
+    minX: 0
+    minZ: 0
+    maxX: 100
+    maxZ: 100
+    centerX: 50
+    centerZ: 50
+
+  - id: island_02
+    displayName: "Wüsten-Schloss"
+    biome: DESERT
+    world: world
+    minX: 200
+    minZ: 0
+    maxX: 300
+    maxZ: 100
+    centerX: 250
+    centerZ: 50
+
+  - id: island_03
+    displayName: "Dschungel-Geheimnis"
+    biome: JUNGLE
+    world: world
+    minX: 0
+    minZ: 200
+    maxX: 100
+    maxZ: 300
+    centerX: 50
+    centerZ: 250
