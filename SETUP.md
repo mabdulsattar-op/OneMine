@@ -10,7 +10,7 @@ Diese Anleitung führt dich von **0** bis **laufender Test-Server**.
 |------|---------|--------|
 | Java | **21** | Minecraft + Plugin bauen |
 | Maven | 3.9+ | Plugin kompilieren |
-| Minecraft Java Edition | 1.21.x | Client zum Verbinden |
+| Minecraft Java Edition | 1.21.11 | Client zum Verbinden |
 
 ---
 
@@ -63,7 +63,7 @@ powershell -ExecutionPolicy Bypass -File .\setup-server.ps1
 ```
 
 Das Skript:
-1. Lädt Paper 1.21.4 herunter
+1. Lädt Paper 1.21.11 herunter
 2. Erstellt `c:\Minecraft\OneMine-Server\`
 3. Kopiert die Plugin-JAR nach `plugins/`
 4. Erzeugt `eula.txt` (EULA akzeptiert) und `server.properties`
@@ -85,7 +85,7 @@ Server stoppen: im Server-Fenster `stop` eingeben.
 
 ## Schritt 5 – Im Spiel verbinden
 
-1. Minecraft Java Edition **1.21.4** starten
+1. Minecraft Java Edition **1.21.11** starten
 2. Multiplayer → Direct Connect
 3. Adresse: **`localhost`**
 4. Im Chat: **`/menü`**
@@ -154,7 +154,7 @@ c:\Minecraft\
 |---------|--------|
 | `java` nicht gefunden | PowerShell neu starten nach Installation |
 | `mvn` nicht gefunden | Maven installieren, PATH prüfen |
-| Plugin lädt nicht | Paper **1.21+** verwenden, Server-Log prüfen |
+| Plugin lädt nicht | Paper **1.21.11** verwenden, Server-Log prüfen |
 | `/menü` unbekannt | Plugin-Fehler in `logs/latest.log` suchen |
 | Keine Marines | Spieler muss auf definierter Insel stehen |
 | Eroberung klappt nicht | `islands.yml` Koordinaten anpassen |
