@@ -13,6 +13,12 @@ commands:
     aliases:
       - menü
       - menue
+  commands:
+    description: Zeigt alle verfügbaren Commands
+    usage: /commands
+  berrys:
+    description: Sendet Berrys an einen Spieler (nur OP)
+    usage: /berrys <spieler> <amount>
 
 permissions:
   onemine.use:
@@ -20,4 +26,7 @@ permissions:
     default: true
   onemine.admin:
     description: Admin-Rechte (Bau-Schutz bypass)
+    default: op
+  onemine.berrys:
+    description: Erlaubt Berrys zu versenden
     default: op
